@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    color: rgb(20, 202, 20);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("background.jpg");
+    background-size: cover;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+}
+
+
+.container {
+    background-color: rgba(0,0,0,0.5);
+  border-radius: 15px;
+  padding: 140px;
+}
+
+nav {
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(20, 202, 20);
+    border-radius: 6px;
+}
+
+main {
+    color: white;
+}
+
+.scooter {
+    margin-top: 20px;
+}
+
+.scooter-name {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.distance {
+    font-weight: 300;
+    display: block;
+}
+
+.green-battery {
+    width: 50%;
+    height: 25px;
+    text-align: left;
+    background-color: rgb(8, 180, 8);
+    border-radius: 6px;
+}
+
+.yellow-battery {
+    width: 30%;
+    height: 25px;
+    text-align: left;
+    background-color: orange;
+    border-radius: 6px;
+}
+
+.red-Battery {
+    width: 10%;
+    height: 25px;
+    text-align: left;
+    background-color: rgb(170, 11, 11);
+    border-radius: 6px;
+}
